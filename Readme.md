@@ -1,7 +1,7 @@
 # Личный проект «Глейси»
 
 * Студент: [Maxim Kochetkov](https://up.htmlacademy.ru/htmlcss/21/user/806611).
-* Наставник: `Неизвестно`.
+* Наставник: [Дмитрий Руднев](https://htmlacademy.ru/profile/doppelganger).
 
 ---
 
