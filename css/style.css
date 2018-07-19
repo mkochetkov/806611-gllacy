@@ -53,12 +53,26 @@ a {
   background-color: #f7f6f3;
 }
 
+.site-navigation li {
+  margin-right: 25px;
+}
+
+.user-navigation li {
+  margin-right: 10px;
+}
+
+.user-navigation li:last-child {
+  margin-right: 0;
+}
+
 /*.contacts верно?*/
 .contacts {
   font-size: 14px;
   line-height: 16px;
   font-weight: 700;
   color: #ffffff;
+
+  text-align: right;
 }
 
 .contacts a {
@@ -207,7 +221,6 @@ body {
 
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
 }
 
 .main-navigation {
@@ -216,7 +229,6 @@ body {
   padding: 0;
 
   display: flex;
-  justify-content: space-between;
 }
 
 .main-header-logo {
@@ -226,7 +238,7 @@ body {
 }
 
 .site-navigation {
-  width: 650px;
+  width: 700px;
   margin: 0;
   padding: 0;
 
@@ -240,7 +252,7 @@ body {
 }
 
 .user-navigation {
-  
+  /* Здесь не надо задавать ширину? */
   margin: 0;
   margin-left: auto;
   padding: 0;
