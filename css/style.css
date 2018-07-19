@@ -156,6 +156,10 @@ a {
   color: #323232;
 }
 
+.features img {
+  margin-right: 10px; /*Можно сделать отступ другим способом?*/
+}
+
 .features-item p {
   font-size: 16px;
   line-height: 22px;
@@ -246,9 +250,6 @@ body {
 
   list-style: none;
   align-items: center;
-
-  /* Временно для сетки */
-  min-height: 70px;
 }
 
 .user-navigation {
@@ -261,10 +262,30 @@ body {
   align-items: center;
 
   list-style: none;
-
-  /* Временно для сетки */
-  min-height: 70px;
 }
+
 .contacts {
   margin-left: auto;
+}
+
+.features {
+  margin: 0;
+  padding: 0 27px;
+}
+
+.features-list {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.feature-item {
+  width: 50%;
+
+  display: flex;
+  align-items: center; /* Как смог */
 }
