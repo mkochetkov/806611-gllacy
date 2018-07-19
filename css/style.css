@@ -192,3 +192,67 @@ a {
   text-decoration: none;
   color: #323232;
 }
+
+/* ----- Сеточные стили ----- */
+
+html,
+body {
+  width: 1200px;
+}
+
+.main-header {
+  /* Временно для сетки*/
+  width: 100%;
+  padding: 0 27px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.main-navigation {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header-logo {
+  width: 154px;
+  height: 64px;
+  margin-right: 25px;
+}
+
+.site-navigation {
+  width: 650px;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+
+  list-style: none;
+  align-items: center;
+
+  /* Временно для сетки */
+  min-height: 70px;
+}
+
+.user-navigation {
+  
+  margin: 0;
+  margin-left: auto;
+  padding: 0;
+
+  display: flex;
+  align-items: center;
+
+  list-style: none;
+
+  /* Временно для сетки */
+  min-height: 70px;
+}
+.contacts {
+  margin-left: auto;
+}
