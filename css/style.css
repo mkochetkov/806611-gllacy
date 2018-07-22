@@ -253,7 +253,7 @@ body {
 }
 
 .user-navigation {
-  /* Здесь не надо задавать ширину? */
+  max-width: 250px;
   margin: 0;
   margin-left: auto;
   padding: 0;
@@ -288,4 +288,54 @@ body {
 
   display: flex;
   align-items: center; /* Как смог */
+}
+
+.index-columns {
+  margin: 0;
+  padding: 0 27px;
+
+  display: flex;
+}
+
+.index-columns .blog {
+  width: 50%;
+}
+
+.index-columns .subscription {
+  width: 50%;
+}
+
+.main-footer {
+  margin: 0;
+  padding: 0 27px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-social {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+
+  display: flex;
+}
+
+.footer-info {
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  height: 50px;
+
+  list-style: none;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.footer-copyright-logo {
+  display: block;
 }
